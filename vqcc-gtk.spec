@@ -1,8 +1,7 @@
-# - Change Summary (temporary taken from vyqchat.spec)
 # - write description pl
 # - check BR, R, url
-Summary:	Real-time, text-based, serverless LAN chat program
-Summary(pl):	Dzia³aj±cy w czasie rzeczywistym, tekstowy, bezserwerowy program do pogawêdek sieciowych
+Summary:	Chat application for GTK+ based on quickChat/Vypress Chat
+Summary(pl):	Program do pogawêdek internetowych dla GTK+ oparty na quickChat/Vypress Chat
 Name:		vqcc-gtk
 Version:	0.5
 Release:	0.1
@@ -11,7 +10,7 @@ Group:		Applications/Communications
 Source0:	http://dl.sourceforge.net/sourceforge/vqcc-gtk/%{name}-%{version}.tar.gz
 # Source0-md5:	88c2beaa96b58b380147a1d24c90349d
 Patch0:		%{name}-desktop.patch
-URL:		http://vqcc-gtk.sf.net/	
+URL:		http://vqcc-gtk.sourceforge.net/	
 BuildRequires:	autoconf
 BuildRequires:	automake
 BuildRequires:	gtk+-devel >= 2.0

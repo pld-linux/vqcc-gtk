@@ -1,8 +1,6 @@
 # - Change Summary (temporary taken from vyqchat.spec)
 # - write description pl
 # - check BR, R, url
-# - check .desktop file
-
 Summary:	Real-time, text-based, serverless LAN chat program
 Summary(pl):	Dzia³aj±cy w czasie rzeczywistym, tekstowy, bezserwerowy program do pogawêdek sieciowych
 Name:		vqcc-gtk
@@ -10,8 +8,9 @@ Version:	0.5
 Release:	0.1
 License:	GPL	
 Group:		Applications/Communications
-Source0:	http://dl.sourceforge.net/sourceforge/%{name}/%{name}-%{version}.tar.gz
+Source0:	http://dl.sourceforge.net/sourceforge/vqcc-gtk/%{name}-%{version}.tar.gz
 # Source0-md5:	88c2beaa96b58b380147a1d24c90349d
+Patch0:		%{name}-desktop.patch
 URL:		http://vqcc-gtk.sf.net/	
 BuildRequires:	autoconf
 BuildRequires:	automake
@@ -34,6 +33,7 @@ it is not possible to communicate outside your LAN (or subnet).
 
 %prep
 %setup -q
+%patch0 -p1
 
 %build
 %{__aclocal}
@@ -53,7 +53,7 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc ChangeLog README COPYING
-%_bindir/*
-%_datadir/pixmaps/*
-%_datadir/applications/*
+%doc AUTHORS ChangeLog README TODO
+%attr(755,root,root) %{_bindir}/*
+%{_pixmapsdir}/*
+%{_desktopdir}/*

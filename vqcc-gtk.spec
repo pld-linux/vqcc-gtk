@@ -8,10 +8,10 @@ Group:		Applications/Communications
 Source0:	http://dl.sourceforge.net/vqcc-gtk/%{name}-%{version}.tar.gz
 # Source0-md5:	88c2beaa96b58b380147a1d24c90349d
 Patch0:		%{name}-desktop.patch
-URL:		http://vqcc-gtk.sourceforge.net/	
-BuildRequires:	autoconf
+URL:		http://vqcc-gtk.sourceforge.net/
+BuildRequires:	autoconf >= 2.50
 BuildRequires:	automake
-BuildRequires:	gtk+2-devel
+BuildRequires:	gtk+2-devel >= 2.0.0
 BuildRequires:	pkgconfig
 BuildRequires:	startup-notification-devel >= 0.5
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)

@@ -12,7 +12,7 @@ Patch0:		%{name}-desktop.patch
 URL:		http://vqcc-gtk.sourceforge.net/	
 BuildRequires:	autoconf
 BuildRequires:	automake
-BuildRequires:	gtk+-devel >= 2.0
+BuildRequires:	gtk+2-devel
 BuildRequires:	startup-notification-devel >= 0.5
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 

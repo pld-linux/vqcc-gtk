@@ -1,9 +1,8 @@
-# - check BR, R, url
 Summary:	Chat application for GTK+ based on quickChat/Vypress Chat
 Summary(pl):	Program do pogawêdek internetowych dla GTK+ oparty na quickChat/Vypress Chat
 Name:		vqcc-gtk
 Version:	0.5
-Release:	0.1
+Release:	1
 License:	GPL	
 Group:		Applications/Communications
 Source0:	http://dl.sourceforge.net/vqcc-gtk/%{name}-%{version}.tar.gz

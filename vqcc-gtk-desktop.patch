@@ -1,0 +1,17 @@
+--- vqcc-gtk-0.5/vqcc-gtk.desktop~	2005-03-30 20:53:36.000000000 +0200
++++ vqcc-gtk-0.5/vqcc-gtk.desktop	2005-03-30 21:10:24.000000000 +0200
+@@ -1,9 +1,11 @@
+ [Desktop Entry]
++Enconding=UTF-8
+ Name=vqcc-gtk Chat Client
+-Comment=quickChat/Vypress Chat clone for GTK+
++Comment=Chat application for the GTK+
++Comment[pl]=Program do pogawêdek sieciowych dla GTK+
+ Exec=vqcc-gtk
+ Icon=vqcc-gtk.png
+-Terminal=false
++Terminal=0
+ Type=Application
+ Categories=Application;Network;
+-StartupNotify=true
++StartupNotify=1

@@ -13,6 +13,7 @@ URL:		http://vqcc-gtk.sourceforge.net/
 BuildRequires:	autoconf
 BuildRequires:	automake
 BuildRequires:	gtk+2-devel
+BuildRequires:	pkgconfig
 BuildRequires:	startup-notification-devel >= 0.5
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 

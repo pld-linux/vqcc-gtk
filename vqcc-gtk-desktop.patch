@@ -6,7 +6,7 @@
  Name=vqcc-gtk Chat Client
 -Comment=quickChat/Vypress Chat clone for GTK+
 +Comment=Chat application for the GTK+
-+Comment[pl]=Program do pogawêdek sieciowych dla GTK+
++Comment[pl]=Program do pogawÃªCdek sieciowych dla GTK+
  Exec=vqcc-gtk
  Icon=vqcc-gtk.png
 -Terminal=false
@@ -15,3 +15,4 @@
  Categories=Application;Network;
 -StartupNotify=true
 +StartupNotify=1
++# vi: encoding=utf-8

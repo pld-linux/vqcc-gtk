@@ -3,7 +3,7 @@ Summary(pl):	Program do pogawêdek internetowych dla GTK+ oparty na quickChat/Vyp
 Name:		vqcc-gtk
 Version:	0.5
 Release:	1
-License:	GPL	
+License:	GPL
 Group:		Applications/Communications
 Source0:	http://dl.sourceforge.net/vqcc-gtk/%{name}-%{version}.tar.gz
 # Source0-md5:	88c2beaa96b58b380147a1d24c90349d

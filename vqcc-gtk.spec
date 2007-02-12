@@ -1,5 +1,5 @@
 Summary:	Chat application for GTK+ based on quickChat/Vypress Chat
-Summary(pl):	Program do pogawêdek internetowych dla GTK+ oparty na quickChat/Vypress Chat
+Summary(pl.UTF-8):   Program do pogawÄ™dek internetowych dla GTK+ oparty na quickChat/Vypress Chat
 Name:		vqcc-gtk
 Version:	0.5
 Release:	1
@@ -27,15 +27,15 @@ when using Linux, FreeBSD or any other *NIX desktop. You need no
 server to run, however it is not possible to communicate outside your
 LAN (or subnet).
 
-%description -l pl
-Vqcc-gtk jest programem do pogawêdek internetowych dla GTK+,
-pierwotnie u¿ywany w ma³ych sieciach LAN. Oparto go na
+%description -l pl.UTF-8
+Vqcc-gtk jest programem do pogawÄ™dek internetowych dla GTK+,
+pierwotnie uÅ¼ywany w maÅ‚ych sieciach LAN. Oparto go na
 quickChat/Vypress Chat dla Windowsa. Jest licencjonowany na GNU GPL.
 
-Aplikacja wspiera zarówno protokó³ quickChat jak i Vypress Chat.
-Mo¿liwe, ¿e zast±pi w niedalekiej przysz³o¶ci te aplikacje podczas
-u¿ywania systemów uniksowych. Do jego uruchomienia nie jest potrzebny
-serwer, jakkolwiek nie jest mo¿liwe komunikowanie siê poza sieci± LAN.
+Aplikacja wspiera zarÃ³wno protokÃ³Å‚ quickChat jak i Vypress Chat.
+MoÅ¼liwe, Å¼e zastÄ…pi w niedalekiej przyszÅ‚oÅ›ci te aplikacje podczas
+uÅ¼ywania systemÃ³w uniksowych. Do jego uruchomienia nie jest potrzebny
+serwer, jakkolwiek nie jest moÅ¼liwe komunikowanie siÄ™ poza sieciÄ… LAN.
 
 %prep
 %setup -q

@@ -1,5 +1,5 @@
 Summary:	Chat application for GTK+ based on quickChat/Vypress Chat
-Summary(pl.UTF-8):   Program do pogawędek internetowych dla GTK+ oparty na quickChat/Vypress Chat
+Summary(pl.UTF-8):	Program do pogawędek internetowych dla GTK+ oparty na quickChat/Vypress Chat
 Name:		vqcc-gtk
 Version:	0.5
 Release:	1

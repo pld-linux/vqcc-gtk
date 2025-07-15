@@ -39,7 +39,7 @@ serwer, jakkolwiek nie jest możliwe komunikowanie się poza siecią LAN.
 
 %prep
 %setup -q
-%patch0 -p1
+%patch -P0 -p1
 
 %build
 %{__aclocal}
